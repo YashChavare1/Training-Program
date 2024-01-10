@@ -1,0 +1,55 @@
+1) What is Git?
+    - Git is a distributed version control system that helps track changes in source code during software development process.
+    - Git allows multiple developers to work on a project simultaneously and independently. It's designed to be fast, flexible, and reliable.
+
+2) Why Git is Used? 
+    Git offers several benefits for developers and teams working on software projects:
+    - Version Control: Git allows developers to track changes in their codebase, enabling them to revert to previous versions, understand who made specific changes, and collaborate more effectively.
+    - Branching: Git makes it easy to create branches, which are independent lines of development. This enables developers to work on new features or bug fixes without affecting the main codebase until they are ready to merge their changes.
+    - Collaboration: Multiple developers can work on the same project simultaneously. Git helps manage conflicts that may arise when two developers make changes to the same file.
+
+3) How to use?
+    - Initialize a Git Repository: This command pushes the committed changes from your local repository to a remote repository in the specified branch
+        git init
+    - Clone an Existing Repository:
+        git clone <repo_url>
+    - Stage Changes:
+        git add <filename>
+    - Commit Changes: 
+        git commit -m "Message"
+    - Create a Branch
+        git branch <branch_name>    // Creation of Branch
+        git checkout <branch_name>  // Switching to Branch
+    - Merge Branches
+        git checkout <target_branch>
+        git merge <source_branch>
+    - Pull Changes from a remote Repository
+        git pull origin <branch_name>
+    - Push Changes to a remote Repository
+        git push origin <branch_name>
+
+4) Commands and Their Uses
+
+- git init: This command initializes a new Git repository in the current directory. It sets up the necessary data structures and files for version control.
+
+- git clone <repo_url>: Cloning is the process of copying an existing Git repository from a remote location (like GitHub) to your local machine. This command creates a copy of the repository in a new directory.
+
+- git add <fileName>
+This command stages changes for the next commit. Staging is the process of marking modified files to be included in the next commit.
+
+- git commit -m <message>:
+Commits record changes to the repository. The -m flag is used to include a commit message, which describes the changes made in that commit.
+
+- Create a Branch:
+git branch <branch_name> : Create a new Branch
+git checkout <branch_name> : Switches to the branch
+
+- Merge Branches:
+git checkout <target_branch> : Switches to the branch where we want to merge Changes.
+git merge <source_branches> : It merges the Changes from the Source Branch into the target branch
+
+- Pull Changes:
+git pull origin <branch_name> : This command fetches changes from a remote repository and merges them into the current branch.
+
+- git push origin <branch_name>: 
+This command pushes the committed changes from your local repository to a remote repository in the specified branch
