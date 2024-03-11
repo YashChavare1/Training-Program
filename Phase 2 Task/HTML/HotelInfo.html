@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/HotelInfo.css">
+</head>
+
+<body>
+    <div class="main-header">
+        <div class="header">
+            <div class="header-top">
+                <img src="../Images/Navbar/Logo.svg" alt="Logo">
+                <div class="search-container">
+                    <input type="text">
+                </div>
+                <div class="icon-box">
+                    <div class="icons">
+                        <ul>
+                            <li><img src="../Images/Navbar/Country.svg" alt="Country"></li>
+                            <li><img src="../Images/Navbar/Currency.svg" alt="Currency"></li>
+                            <li><img src="../Images/Navbar/QuestionMark.svg" alt="Questions"></li>
+                            <li><img src="../Images/Navbar/LikeIcon.svg" alt="Like Icon"></li>
+                            <li><img src="../Images/Navbar/PhoneIcon.svg" alt="Phone Icon"></li>
+                        </ul>
+                    </div>
+                    <div class="profile">
+                        <img src="../Images/Navbar/image.png" alt="ProfileIcon">
+                        <div class="profile-right">
+                            <p style="font-weight: 800; font-size: 14px;">Your Account</p>
+                            <p style="font-weight: 400; font-size: 12px;">Anna Carinna</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="chip-menu">
+                <button>Trip</button>
+                <button>%Deals</button>
+                <button>Hotel</button>
+                <button>Flight</button>
+                <button>Apartment</button>
+                <button>Camper</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="left-column">
+            <div class="hotel-info">
+                <div class="hotel-info-left">
+                    <img src="../Images/HotelInfo/HotelImage1.jpeg" alt="Hotel Image 1">
+                    <img src="../Images/HotelInfo/HotelImage1.jpeg" alt="Hotel Image 2">
+                    <img src="../Images/HotelInfo/HotelImage1.jpeg" alt="Hotel Image 3">
+                    <img src="../Images/HotelInfo/HotelImage1.jpeg" alt="Hotel Image 4">
+                </div>
+                <div class="hotel-info-right">
+                    <div class="hotel-info-upper">
+                        <p id="hotel-name">First Hotel G</p>
+                        <p style="font-weight: 400; font-size: 10px; line-height: 14px;">Modern Hotel at Gothehburg
+                            Central Station</p>
+                        <div class="location">
+                            <div class="location-title">
+                                <img src="../Images/HotelInfo/Facalities/Location.svg" alt="location logo">
+                                <p id="location-information">Location Information</p>
+                            </div>
+                            <ul style="font-size: 12px; font-weight: 400;">
+                                <li>0 m to City Center</li>
+                                <li>24 km to Landvetter Airport</li>
+                                <li>2.5 km to Amusment Park</li>
+                                <li>0 m to Gothenburg Central Station</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="facilities">
+                        <ul>
+                            <li>
+                                <img src="../Images/HotelInfo/Facalities/Breakfast.svg" alt="Free Breakfast">
+                                <span>Breakfast Included</span>
+                            </li>
+                            <li>
+                                <img src="../Images/HotelInfo/Facalities/Wifi.svg" alt="Free Wifi">
+                                <span>Free Wifi</span>
+                            </li>
+                            <li>
+                                <img src="../Images/HotelInfo/Facalities/Parking.svg" alt="Free Parking">
+                                <span>Free Parking</span>
+                            </li>
+                            <li>
+                                <img src="../Images/HotelInfo/Facalities/Pets.svg" alt="Free Parking">
+                                <span>Pets are welcome</span>
+                            </li>
+                            <li>
+                                <img src="../Images/HotelInfo/Facalities/Laundry.svg" alt="Free Parking">
+                                <span>Free Laundry Service</span>
+                            </li>
+                            <li>
+                                <img src="../Images/HotelInfo/Facalities/NoSmoking.svg" alt="Free Parking">
+                                <span>No Smoking</span>
+                            </li>
+                            <li>
+                                <img src="../Images/HotelInfo/Facalities/Exerise.svg" alt="Free Parking">
+                                <span>Free Entrance Exercise Center</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="booking-details">
+                <p id="booking-p">Your Booking Details</p>
+                <div class="date">
+                    <div class="date-start">
+                        <p id="check-in">Check - In</p>
+                        <p>2 Augest 2023</p>
+                    </div>
+                    <div class="date-end">
+                        <p id="check-out">Check - Out</p>
+                        <p>2 Augest 2023</p>
+                    </div>
+                </div>
+                <div class="booking-info">
+                    <ul style=" font-size: 14px;">
+                        <li>You Will Stay 4 Nights</li>
+                        <li>You Selected 2 Rooms For:</li>
+                        <li>2 Adults</li>
+                        <li>3 Children (12, 7 And 5 Years Old)</li>
+                        <li>0 Infant</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="room">
+                <p id="room-p"><b>The Room:</b> Superior Twin Room</p>
+                <div>
+                    <div class="guest-number">
+                        <img src="../Images/Room/Plus.svg" alt="Logo">
+                        <p style="font-weight: bold; font-size: 16px;">Guest Number</p>
+                        <p>2 Adult</p>
+                    </div>
+                    <div class="service-rating">
+                        <img src="../Images/Room/CleanTag.svg" alt="Cleaning Rates">
+                        <p>Cleanliness Rooms Rate</p>
+                        <img src="../Images/Room/CleanRating.svg" alt="Cleaning Rating">
+                    </div>
+                    <div class="room-facility">
+                        <div class="room-facility-item">
+                            <button><img src="../Images/Room/HotelSize.svg" alt="hotel Logo"> 18 M2 </button>
+                            <button><img src="../Images/Room/CityCenter.svg" alt="City Center Logo"> City Center
+                            </button>
+                            <button><img src="../Images/Room/NextToForest.svg" alt="Next to Forest Logo"> Next To Forest
+                            </button>
+                        </div>
+                        <div class="room-facility-item">
+                            <button><img src="../Images/Room/Shower.svg">En - Suite Bath Room</button>
+                            <button><img src="../Images/Room/TV.svg" alt="TV Logo">Flat-Screen TV</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="payment-info">
+                <div class="title">
+                    <p>Payment Information</p>
+                </div>
+                <div class="summary">
+                    <div class="summary-details">
+                        <div class="title">
+                            Your Price Summary
+                        </div>
+                        <div class="pricing-detail">
+                            <div class="detail">
+                                Original Price
+                            </div>
+                            <div class="pricing">
+                                <p>$960</p> 4 Nights
+                            </div>
+                        </div>
+                        <div class="discount">
+                            <div class="discount-details">
+                                EasySet24 Loyalty Discount 4 %
+                            </div>
+                            <div class="pricing">
+                                <p>$100</p> Discount
+                            </div>
+                        </div>
+                    </div>
+                    <div class="total">
+                        <div>
+                            <p class="detail">Total Amount For Payment</p>
+                        </div>
+                        <div>
+                            <p class="amount">$860</p>
+                        </div>
+                    </div>
+                    <div class="cancellation">
+                        <div class="title">
+                            Cancellation Policy
+                        </div>
+                        <div class="details">
+                            <div class="feature">
+                                <img src="../Images//PaymentInfo/TickLogo.svg" alt="Correct Logo">
+                                <p>Free Cancellation</p>
+                            </div>
+                            <p style="font-size: 14px; font-weight: 400;">Cancel /Rebook No Later Than 24 Hours Before,
+                                Otherwise You Pay 80% Of The Cost.</p>
+                        </div>
+                        <div class="payment-scheme">
+                            <div class="feature">
+                                <p style="margin: 0;">Pay part now, part later</p>
+                                <input type="radio">
+                            </div>
+                            <p style="font-size: 14px; font-weight: 400;">Pay $ 200 now, and the rest ($6,60) will be
+                                automatically charged to the same payment method on August 27, 2023. No extra fees.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="payment-method">
+                <div class="title">
+                    Payment Methods
+                </div>
+                <div class="detail">
+                    <div class="select-method">
+                        <p>Payment Method</p>
+
+                        <select id="payment-select">
+
+                        </select>
+                    </div>
+                    <div class="book-for-work">
+                        <p>Booking For Work</p>
+                        <input type="radio" id="payment-input">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right-column">
+            <div class="profile-info">
+                <div class="sub-profile-info">
+                    <div class="profile">
+                        <div class="profile-left">
+                            <img src="../Images/Navbar/image.png" alt="ProfileIcon">
+                            <div>
+                                <p style="font-weight: 800; font-size: 14px;">Anna Carinna</p>
+                                <p style="font-weight: 400; font-size: 12px;">easyset24@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="button">
+                            <button>Check Your Booking History <img src="../Images/RightArrow.svg"></button>
+                        </div>
+                    </div>
+                    <div class="frame-user">
+                        <div class="text">Who Are You Booking For?</div>
+                        <div class="button1" style="width: 137px;">
+                            <input type="radio">
+                            <p>I Am The Main Guest</p>
+                        </div>
+                        <div class="button2" style="width: 175px;">
+                            <input type="radio">
+                            <p>Booking Is For Someone Else</p>
+                        </div>
+                    </div>
+                    <div class="info-box">
+                        <div class="title">
+                            Enter Your Information
+                        </div>
+                        <div class="detail">
+                            <p style="font-weight: 400; font-size: 14px;">Make Sure the Information that you Have
+                                already
+                                written in yoy Profile is Correct.</p>
+                            <div class="edit-profile">
+                                <img src="../Images/EditPen.svg" width="16px" height="16px">
+                                <p>Edit Profile</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form">
+                <div class="top">
+                    <div class="title">
+                        Full Name
+                    </div>
+                    <div class="input">
+                        <input type="text" placeholder="First name">
+                        <input type="text" placeholder="Middle name">
+                        <input type="text" placeholder="Last name">
+                    </div>
+                </div>
+                <div class="middle">
+                    <div class="email">
+                        <label>Email Address</label>
+                        <input type="password" placeholder="................">
+                    </div>
+                    <div class="phone">
+                        <label>Phone Number</label>
+                        <input type="text" placeholder="7474747474">
+                    </div>
+                </div>
+                <div class="last">
+                    <div class="text">
+                        <p style="font-weight: 700; font-size: 16px; margin: 0;">If You Need Assistance</p>
+                        <p style="font-weight: 400; font-size: 12px; margin: 0;">Choose An Option Based On Physical
+                            Disability Accordingly.</p>
+                    </div>
+                    <div class="details">
+                        <div class="option">
+                            <p>Choose An Option</p>
+                            <select>
+                                <option value="opt1">Option 1</option>
+                                <option value="opt2">Option 2</option>
+                                <option value="opt3">Option 3</option>
+                            </select>
+                        </div>
+                        <div class="country">
+                            <p style="margin: 0; font-weight: 500; font-size: 14px;">Region /Country</p>
+                            <input type="text" placeholder="Country">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="center">
+                <div class="upper">
+                    <div class="details">
+                        <div class="up">
+                            <div class="title">Add To Your Story</div>
+                            <div class="text1">
+                                <div class="checkbox">
+                                    <input type="checkbox" style="width: 24px; height: 24px;">
+                                    <p>I Will Need A Flight For My Trip</p>
+                                </div>
+                                <div class="flight-offer">
+                                    <img src="../Images/Flight.png" width="24px" height="24px">
+                                    <p>20% Special Offer If You Book A Flight</p>
+                                </div>
+                                <div class="flight-details">
+                                    <div>
+                                        Flexible Flight Options From Stockholm To Turkiye From SLK 766/Round Trip.
+                                        Fnnish Booking
+                                    </div>
+                                    <div>
+                                        This Stay To Get Flight Recommendations That Match Your Selected Dates.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text2">
+                                <div class="checkbox">
+                                    <input type="checkbox" style="width: 24px; height: 24px;">
+                                    <p style="margin: 0; ">Want To Book A Taxi Or Shuttle Ride In Advance?</p>
+                                </div>
+                                <div class="flight-offer">
+                                    <img src="../Images/Taxi.svg" width="24px" height="24px">
+                                    <p>20% Special Offer If You Book A Flight</p>
+                                </div>
+                                <div class="flight-details">
+                                    <div>
+                                        Avoid surprises_ get from the airport to your accommodation without a hitch.
+                                    </div>
+                                    <div>
+                                        we will add taxi options to your booking confirmation.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="low">
+                            <div class="special-req">
+                                <p class="title" style="margin: 0;">Special Request</p>
+                                <div>
+                                    <p style="margin: 0;">Special Requests Can Not Be Guaranteed _ But The Property Will
+                                        Do Its Best To
+                                        Meet Your
+                                        Needs. </p>
+                                    <p style="margin: 0;">You Can Always Make A Special Request After Your Booking Is
+                                        Complete!</p>
+                                </div>
+                            </div>
+                            <div class="optional">
+                                <p style="margin: 0; font-size: 12px; font-weight: 400;">(Optional)</p>
+                                <input type="text" class="optional-input">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="checkbox">
+                        <div>
+                            <input type="checkbox" style="width: 24px; height: 24px;">
+                            <p style="margin: 0;">I Would Like Rooms Close To Each Other</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="lower">
+                    <div class="arrival-time">
+                        <div class="title">Your Arrival Time</div>
+                        <div class="desc1">
+                            <div>
+                                <img src="../Images/Correct.svg" height="24px" width="24px">
+                                <p style="margin: 0;">Your Rooms Will Be Ready For Check_In Between 15:00 And 23:00</p>
+                            </div>
+                        </div>
+                        <div class="desc1">
+                            <div>
+                                <img src="../Images/Clock.svg" height="24px" width="24px">
+                                <p style="margin: 0;">24-huor front desk_Help wherever you need it!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="estimated-arrival">
+                        <div class="text">
+                            <p style="margin: 0;">Add Your Estimated Arrival Time</p>
+                            <p style="font-size: 14px; font-weight: 400; margin: 0;">(Optional)</p>
+                        </div>
+                        <div class="arr-time">
+                            <input type="time" placeholder="Please Select">
+                            <p>Time for CET time zone</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bank-info">
+                <div class="bank-card-info">
+                    <div class="card-info">
+                        <p style="margin: 0;">Bank Card Information</p>
+                        <div class="input">
+                            <div class="input1" style="width: 175px;">
+                                <p>Full Name On The Card</p>
+                                <input type="text" placeholder="Anna Carina" style="width: 100%;">
+                            </div>
+                            <div class="input2" style="width: 208px;">
+                                <p>Card Number</p>
+                                <input type="password" placeholder="..................." style="width: 100%;">
+                            </div>
+                            <div class="input3" style="width: 80px;">
+                                <p>EXP Date</p>
+                                <input type="text" placeholder="**/**" style="width: 100%;">
+                            </div>
+                            <div class="input4" style="width: 80px;">
+                                <p>CVC</p>
+                                <input type="text" placeholder="***" style="width: 100%;">
+                            </div>
+                        </div>
+                        <div class="buttons">
+                            <button class="btn1">Save In Shortcut <img src="../Images/Navbar/LikeIcon.svg" height="16px"
+                                    width="16px"></button>
+                            <button class="btn2">Payment</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="app-footer">
+            <div class="left">
+                <div class="top">
+                    Go Further With The EasySet24 App
+                </div>
+                <div class="middle">
+                    Enjoy Savings On Chosen Hotels And Flights When You Book Through The EasySet24 Website.
+                    Additionally, Earn One Key Cash For Every Booking Made Through The App.
+                </div>
+                <div class="bottom">
+                    Secured By Europe GTP
+                </div>
+            </div>
+            <div class="right">
+                <div class="top">
+                    <img src="../Images/Footer/app-footer/AppleStore.svg" style="width: 121px; height: 40px;">
+                    <img src="../Images/Footer/app-footer/QR.svg" style="width: 36.35px; height: 36.46px;">
+                </div>
+                <div class="bottom">
+                    <img src="../Images/Footer/app-footer/GoogleStore.svg" style="width: 121px; height: 40px;">
+                    <img src="../Images/Footer/app-footer/QR.svg" style="width: 36.35px; height: 36.46px;">
+                </div>
+            </div>
+        </div>
+        <div class="final">
+            <div class="top">
+                <div class="about-us" style="width: 144px; height: 174px;">
+                    <p class="title">About Us</p>
+                    <p>Our Story</p>
+                    <p>Work With Us</p>
+                    <p>Press & Media</p>
+                    <p>Privacy & Security</p>
+                </div>
+                <div class="we-offer" style="width: 159px; height: 174px;">
+                    <p class="title">We Offer</p>
+                    <p>Trip Sponsorship</p>
+                    <p>Last Minute Flight</p>
+                    <p>Best Deals</p>
+                    <p>AI-Driven Search</p>
+                </div>
+                <div class="headquaters" style="width: 123px; height: 174px;">
+                    <p class="title">Headquaters</p>
+                    <p>England</p>
+                    <p>France</p>
+                    <p>Canada</p>
+                    <p>Iceland</p>
+                </div>
+                <div class="Travel Blogs" style="width: 161px; height: 174px;">
+                    <p class="title">Travel Blogs</p>
+                    <p>Bali Travel Guide</p>
+                    <p>Sri Travel Guide</p>
+                    <p>Peru Travel Guide</p>
+                    <p>Swiss Travel Guide</p>
+                </div>
+                <div class="Activities" style="width: 140px; height: 174px;">
+                    <p class="title">Activities</p>
+                    <p>Tour Leading</p>
+                    <p>Cruising & Sailing</p>
+                    <p>Camping</p>
+                    <p>Kayaking</p>
+                </div>
+                <div class="Service" style="width: 135px; height: 174px;">
+                    <p class="title">Service</p>
+                    <p>Report Error</p>
+                    <p>Ask Online</p>
+                    <p>Travel Insurance</p>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="payment">
+                    <img src="../Images/Footer/Payment/Visa.svg" alt="Visa">
+                    <img src="../Images/Footer/Payment/AmericanExpress.svg" alt="American Express">
+                    <img src="../Images/Footer/Payment/Mastercard.svg" alt="Mastercard">
+                    <img src="../Images/Footer/Payment/Paypal.svg" alt="Paypal">
+                </div>
+                <div class="social">
+                    <img src="../Images/Footer/Social Media/LinkedIn.svg" alt="LinkedIn">
+                    <img src="../Images/Footer/Social Media/Telegram.svg" alt="Telegram">
+                    <img src="../Images/Footer/Social Media/Twitter.svg" alt="Twitter">
+                    <img src="../Images/Footer/Social Media/facebook.svg" alt="Facebook">
+                    <img src="../Images/Footer/Social Media/Instagram.svg" alt="Instagram">
+                </div>
+                <div class="email">
+                    <p style="margin: 0; height: 38px; width: 21px; font-weight: 400; font-size: 14px;">Email</p>
+                    <div class="btn">
+                        <input type="text" placeholder="Enter Your Email">
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="legal">
+            <div class="content">
+                <div>
+                    <img src="../Images/Footer/Legal/CopyRight.svg">
+                    <p style="margin: 0;">Copyright Easyset24</p>
+                </div>
+                <div>
+                    <img src="../Images/Footer/Legal/Mail.svg">
+                    <p>easyset24@gmail.com</p>
+                </div>
+                <div>
+                    <p style="font-weight: 700; font-size: 16px;">"EasySet24: Seamless Journeys, Unrivalled Travel
+                        Wisdom!"</p>
+                </div>
+                <div>
+                    <img src="../Images/Footer/Legal/Location.svg">
+                    <p>123 Oxford Street,London</p>
+                </div>
+                <div>
+                    <img src="../Images/Footer/Legal/Phone.svg">
+                    <p>+44 20 7123 4567</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
