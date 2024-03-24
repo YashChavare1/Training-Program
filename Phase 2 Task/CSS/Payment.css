@@ -93,7 +93,88 @@ body {
 .main .right {
   width: 515px;
   height: 641px;
-  gap: 40px;
+  gap: 26px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main .right .payment-methods {
+  width: 515px;
+  height: 187px;
+  gap: 32px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main .right .inputs {
+  width: 515px;
+  height: 240px;
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main .right .cancellation {
+  width: 515px;
+  height: 62px;
+  gap: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main .right .buttons {
+  width: 515px;
+  height: 68px;
+  gap: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.main .right .buttons .btn1 {
+  box-sizing: border-box;
+  width: 241.5px;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #07689f;
+  border-radius: 4px;
+  padding: 8px 16px;
+  gap: 16px;
+  color: #07689f;
+  background-color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  align-items: center;
+  justify-content: center;
+}
+
+.main .right .buttons .btn1:hover {
+  cursor: pointer;
+  box-sizing: border-box;
+  border: 5px solid rgb(19, 166, 19);
+}
+
+.main .right .buttons .btn2 {
+  box-sizing: border-box;
+  width: 241.5px;
+  height: 48px;
+  border-radius: 4px;
+  border: none;
+  padding: 8px 16px;
+  gap: 16px;
+  color: #ffffff;
+  background-color: #07689f;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.main .right .buttons .btn2:hover {
+    background-color: rgb(19, 166, 19);
 }
 
 .main .left .detail {
@@ -130,10 +211,9 @@ body {
 .main .left .rating {
   width: 515px;
   height: 33px;
-  border: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
   box-sizing: border-box;
   padding: 4px 0px;
-  gap: 32px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -151,7 +231,7 @@ body {
   padding: 8px;
   gap: 10px;
   border-radius: 8px 8px 0px 0px;
-  background-color: #07689F;
+  background-color: #07689f;
   box-sizing: border-box;
   color: #ffffff;
   display: flex;
@@ -189,19 +269,20 @@ body {
   border-top: 1px solid #d9d9d9;
   box-sizing: border-box;
   padding: 4px 0px;
-  gap: 56px;
-}
-
-.main .left .info .ticket .photo .details .flight {
-  width: 507px;
-  height: 32px;
-  border-top: 1px solid #d9d9d9;
-  box-sizing: border-box;
-  padding: 4px 0px;
   gap: 57px;
   display: flex;
   flex-direction: row;
-  /* justify-content: space-between; */
+}
+
+.main .left .info .ticket .photo .details .flight:hover {
+  backdrop-filter: blur(8px); 
+  background-color: rgba(190, 178, 178, 0.5); 
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
 }
 
 /* Footer */
@@ -343,4 +424,13 @@ body {
   color: #ffffff;
   font-weight: 500;
   font-size: 14px;
+}
+
+.footer .final .bottom .email .btn button:hover {
+  cursor: pointer;
+  background-color: rgb(19, 166, 19);
+}
+
+img:hover {
+  cursor: pointer;
 }

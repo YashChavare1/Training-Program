@@ -4,6 +4,7 @@ body {
   margin: 0;
   padding: 0;
   justify-content: center;
+  text-transform: capitalize;
 }
 
 .main-header {
@@ -153,7 +154,6 @@ body {
 }
 
 .left-column {
-  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -165,7 +165,6 @@ body {
 .right-column {
   width: 642px;
   height: 2025px;
-  margin-left: 100px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -552,6 +551,7 @@ body {
   width: 217px;
   height: 24px;
 }
+
 .summary .total .amount {
   color: #4c9839;
   font-weight: 700;
