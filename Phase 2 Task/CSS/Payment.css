@@ -155,7 +155,8 @@ body {
 .main .right .buttons .btn1:hover {
   cursor: pointer;
   box-sizing: border-box;
-  border: 5px solid rgb(19, 166, 19);
+  background-color: rgb(19, 166, 19);
+  color: white;
 }
 
 .main .right .buttons .btn2 {

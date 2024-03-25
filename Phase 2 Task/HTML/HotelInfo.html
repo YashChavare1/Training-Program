@@ -255,11 +255,11 @@
                     <div class="frame-user">
                         <div class="text">Who Are You Booking For?</div>
                         <div class="button1" style="width: 137px;">
-                            <input type="radio">
+                            <input type="radio" name="radio">
                             <p>I Am The Main Guest</p>
                         </div>
                         <div class="button2" style="width: 175px;">
-                            <input type="radio">
+                            <input type="radio" name="radio">
                             <p>Booking Is For Someone Else</p>
                         </div>
                     </div>
@@ -282,22 +282,22 @@
             <div class="form">
                 <div class="top">
                     <div class="title">
-                        Full Name
+                        <p id="fullName" style="margin: 0;">Full Name</p>
                     </div>
                     <div class="input">
-                        <input type="text" placeholder="First name">
-                        <input type="text" placeholder="Middle name">
-                        <input type="text" placeholder="Last name">
+                        <input type="text" placeholder="First name" id="firstName">
+                        <input type="text" placeholder="Middle name" id="middleName">
+                        <input type="text" placeholder="Last name" id="lastName">
                     </div>
                 </div>
                 <div class="middle">
                     <div class="email">
-                        <label>Email Address</label>
-                        <input type="password" placeholder="................">
+                        <label id="emailLabel">Email Address</label>
+                        <input type="text" id="email" placeholder="Enter Email">
                     </div>
                     <div class="phone">
-                        <label>Phone Number</label>
-                        <input type="text" placeholder="7474747474">
+                        <label id="phoneLabel">Phone Number</label>
+                        <input type="text" id="phone" placeholder="7474747474">
                     </div>
                 </div>
                 <div class="last">
@@ -308,16 +308,16 @@
                     </div>
                     <div class="details">
                         <div class="option">
-                            <p>Choose An Option</p>
-                            <select>
+                            <p id="selectOptionLabel">Choose An Option</p>
+                            <select id="selectOption">
                                 <option value="opt1">Option 1</option>
                                 <option value="opt2">Option 2</option>
                                 <option value="opt3">Option 3</option>
                             </select>
                         </div>
                         <div class="country">
-                            <p style="margin: 0; font-weight: 500; font-size: 14px;">Region /Country</p>
-                            <input type="text" placeholder="Country">
+                            <p id="countryLabel" style="margin: 0; font-weight: 500; font-size: 14px;">Region /Country</p>
+                            <input type="text" id="country" placeholder="Country">
                         </div>
                     </div>
                 </div>
@@ -425,26 +425,26 @@
                         <p style="margin: 0;">Bank Card Information</p>
                         <div class="input">
                             <div class="input1" style="width: 175px;">
-                                <p>Full Name On The Card</p>
-                                <input type="text" placeholder="Anna Carina" style="width: 100%;">
+                                <p id="cardHolderLabel">Full Name On The Card</p>
+                                <input type="text" id="cardHolderName" placeholder="Anna Carina" style="width: 100%;">
                             </div>
                             <div class="input2" style="width: 208px;">
-                                <p>Card Number</p>
-                                <input type="password" placeholder="..................." style="width: 100%;">
+                                <p id="cardNumberLabel">Card Number</p>
+                                <input type="text" id="cardNumber" placeholder="Enter Card Number" style="width: 100%;">
                             </div>
                             <div class="input3" style="width: 80px;">
-                                <p>EXP Date</p>
-                                <input type="text" placeholder="**/**" style="width: 100%;">
+                                <p id="cardExpLabel">EXP Date</p>
+                                <input type="text" id="cardExp" placeholder="MM/YY" style="width: 100%;">
                             </div>
                             <div class="input4" style="width: 80px;">
-                                <p>CVC</p>
-                                <input type="text" placeholder="***" style="width: 100%;">
+                                <p id="cardCvcLabel">CVC</p>
+                                <input type="text" id="cardCvc" placeholder="***" style="width: 100%;">
                             </div>
                         </div>
                         <div class="buttons">
                             <button class="btn1">Save In Shortcut <img src="../Images/Navbar/LikeIcon.svg" height="16px"
                                     width="16px"></button>
-                            <button class="btn2">Payment</button>
+                            <button class="btn2" onclick="payment()">Payment</button>
                         </div>
                     </div>
                 </div>

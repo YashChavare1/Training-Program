@@ -857,6 +857,12 @@ body {
   padding: 8px;
 }
 
+.profile-info .info-box .detail .edit-profile:hover {
+  cursor: pointer;
+  color: green;
+  font-weight: 700;
+}
+
 .form {
   width: 642px;
   height: 341px;
@@ -1586,3 +1592,4 @@ img:hover {
   align-items: center;
   justify-content: center;
 }
+
