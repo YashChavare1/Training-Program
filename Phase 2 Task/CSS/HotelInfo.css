@@ -1551,6 +1551,7 @@ body {
   border: 0.5px solid #a6a6a6;
   padding: 8px;
   box-sizing: border-box;
+  outline: none;
 }
 
 .footer .final .bottom .email .btn {
@@ -1575,4 +1576,13 @@ body {
 
 img:hover {
   cursor: pointer;
+}
+
+#subscribeBtn:hover {
+  cursor: pointer;
+  background-color: rgb(19, 166, 19);
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
